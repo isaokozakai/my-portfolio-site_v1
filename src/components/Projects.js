@@ -1,5 +1,5 @@
-import React from 'react'
-import { } from 'reactstrap'
+import React from 'react';
+import {  } from 'reactstrap';
 
 const Project = () => (
   <div id="projects">
