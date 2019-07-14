@@ -10,25 +10,37 @@ const About = () => {
   return (
     <Row>
       <Col className="h1 mt-3" sm>About me</Col>
-      <Col className="mt-4" sm>
+      <Col sm>
         <Table borderless>
           <tbody>
-            <tr>
+            <tr className="skill-table-row">
               <th className="skill-table-header">HTML</th>
-              <td>
-                <Progress value={50} color="success" style={{height: "20px"}}>50%</Progress>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill">
+                    <span>50%</span>
+                  </div>
+                </div>
               </td>
             </tr>
-            <tr>
+            <tr className="skill-table-row">
               <th className="skill-table-header">CSS</th>
-              <td>
-                <Progress value={50} color="success" style={{height: "20px"}}>50%</Progress>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill">
+                    <span>50%</span>
+                  </div>
+                </div>
               </td>
             </tr>
-            <tr>
+            <tr className="skill-table-row">
               <th className="skill-table-header">JavaScript</th>
-              <td>
-                <Progress value={50} color="success" style={{height: "20px"}}>50%</Progress>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill">
+                    <span>50%</span>
+                  </div>
+                </div>
               </td>
             </tr>
           </tbody>
