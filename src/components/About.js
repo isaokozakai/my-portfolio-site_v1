@@ -6,7 +6,7 @@ import {
 
 const About = () => {
   return (
-    <Row>
+    <Row id="about">
       <Col className="h1 mt-3" sm>About me</Col>
       <Col sm>
         <table>
@@ -15,7 +15,7 @@ const About = () => {
               <th className="skill-table-header">HTML</th>
               <td className="skill-table-body">
                 <div className="progress-track">
-                  <div className="progress-fill">
+                  <div className="progress-fill" style={{width: '50%'}}>
                     <span>50%</span>
                   </div>
                 </div>
@@ -25,7 +25,7 @@ const About = () => {
               <th className="skill-table-header">CSS</th>
               <td className="skill-table-body">
                 <div className="progress-track">
-                  <div className="progress-fill">
+                  <div className="progress-fill" style={{width: '50%'}}>
                     <span>50%</span>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ const About = () => {
               <th className="skill-table-header">JavaScript</th>
               <td className="skill-table-body">
                 <div className="progress-track">
-                  <div className="progress-fill">
+                  <div className="progress-fill" style={{width: '50%'}}>
                     <span>50%</span>
                   </div>
                 </div>
