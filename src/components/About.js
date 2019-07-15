@@ -1,9 +1,7 @@
 import React from 'react';
 import {
   Row,
-  Col,
-  Progress,
-  Table
+  Col
 } from 'reactstrap';
 
 const About = () => {
@@ -11,7 +9,7 @@ const About = () => {
     <Row>
       <Col className="h1 mt-3" sm>About me</Col>
       <Col sm>
-        <Table borderless>
+        <table>
           <tbody>
             <tr className="skill-table-row">
               <th className="skill-table-header">HTML</th>
@@ -44,7 +42,7 @@ const About = () => {
               </td>
             </tr>
           </tbody>
-        </Table>
+        </table>
       </Col>
     </Row>
   );

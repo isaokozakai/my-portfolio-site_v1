@@ -2,15 +2,16 @@
   border-bottom: 0.3rem solid gray;
 }
 
-.table {
-  vertical-align: middle!important;
+table {
+  vertical-align: middle;
+  width: 100%;
 
   th {
-    padding: 3px 1rem 3px 3px!important;
+    padding: 3px 1rem 3px 3px;
   }
 
   td {
-    padding: 3px!important;
+    padding: 3px;
   }
 }
 
@@ -26,8 +27,8 @@
 .skill-table-body {
   float: left;
   width: 100%;
-  padding: 2px 0!important;
-  background: none!important;
+  padding: 2px 0;
+  background: none;
 
   .progress-track {
     border-radius: 3px;
