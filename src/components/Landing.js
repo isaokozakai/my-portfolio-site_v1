@@ -7,17 +7,17 @@ const Landing = () => {
       <Row>
         <Col className="landing-title display-2 font-weight-bold text-center">
           Isao Kozakai
-      </Col>
+        </Col>
       </Row>
       <Row>
         <Col className="display-4 font-weight-bold text-center mt-4">
           Web Developer
-      </Col>
+        </Col>
       </Row>
       <Row>
         <Col className="h1 text-center mt-3">
           Vancouver, BC
-      </Col>
+        </Col>
       </Row>
     </Container>
   );
