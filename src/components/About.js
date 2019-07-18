@@ -38,6 +38,36 @@ const About = () => {
                 </div>
               </td>
             </tr>
+            <tr className="skill-table-row">
+              <th className="skill-table-header">React</th>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill" style={{width: '70%'}}>
+                    <span>70%</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="skill-table-row">
+              <th className="skill-table-header">Node.js</th>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill" style={{width: '70%'}}>
+                    <span>70%</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="skill-table-row">
+              <th className="skill-table-header">Java</th>
+              <td className="skill-table-body">
+                <div className="progress-track">
+                  <div className="progress-fill" style={{width: '80%'}}>
+                    <span>80%</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
           </tbody>
         </table>
       </Col>
