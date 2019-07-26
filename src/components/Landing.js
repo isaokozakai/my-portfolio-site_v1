@@ -8,7 +8,7 @@ const Landing = () => {
         <Col>
           <h1 className="landing-title">
             Hello, I'm Isao Kozakai.<br/>
-            I'm a full-stack web developer.
+            I'm a web developer.
           </h1>
         </Col>
       </Row>
