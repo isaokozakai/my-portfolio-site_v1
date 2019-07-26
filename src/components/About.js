@@ -3,7 +3,7 @@ import { Row, Col } from 'reactstrap';
 
 const About = () => {
   return (
-    <Row id="about">
+    <Row id="about" className="mt-5">
       <Col className="h1 mt-3" sm>About me</Col>
       <Col sm>
         <table>

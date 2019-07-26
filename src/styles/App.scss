@@ -1,5 +1,31 @@
+.navbar {
+  color: #3a3a3a;
+  background-color: #91e280;
+}
+
+.navbar-title {
+  color: #3a3a3a;
+  font-weight: bold;
+  justify-content: start;
+}
+
+.navbar-menu {
+  color: #3a3a3a;
+  font-weight: bold;
+  justify-content: end;
+  margin-right: 15px;
+}
+
+.landing {
+  color: #3a3a3a;
+  background-color: #91e280;
+}
+
 .landing-title {
-  border-bottom: 0.3rem solid gray;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
 }
 
 #about {

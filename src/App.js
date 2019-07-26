@@ -11,8 +11,8 @@ const App = () => {
   return (
     <>
       <Navigation />
+      <Landing />
       <Container fluid>
-        <Landing />
         <About />
         <Projects />
         <Contact />

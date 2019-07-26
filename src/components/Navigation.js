@@ -16,20 +16,21 @@ const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar className="font-weight-bold bg-info" dark expand="sm">
-      <Container fluid>
-        <NavbarBrand className="justify-content-start" href="/">My Portfolio</NavbarBrand>
+    <Navbar className="navbar" expand="sm">
+      <Container  fluid>
+        <NavbarBrand href="/">
+          <h4 className="navbar-title">My Portfolio</h4></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse className="justify-content-end" isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <HashLink className="text-white mr-4" to="/#about">About</HashLink>
+              <HashLink smooth to="#about"><div className="navbar-menu">About</div></HashLink>
             </NavItem>
             <NavItem>
-              <HashLink className="text-white mr-4" to="/#projects">Projects</HashLink>
+              <HashLink smooth to="#projects"><div className="navbar-menu">Projects</div></HashLink>
             </NavItem>
             <NavItem>
-              <HashLink className="text-white mr-4" to="/#contact">Contact</HashLink>
+              <HashLink smooth to="#contact"><div className="navbar-menu">Contact</div></HashLink>
             </NavItem>
           </Nav>
         </Collapse>

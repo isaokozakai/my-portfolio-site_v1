@@ -3,20 +3,18 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Landing = () => {
   return (
-    <Container className="mb-5">
+    <Container className="landing pt-4 pb-5" fluid>
       <Row>
-        <Col className="landing-title display-2 font-weight-bold text-center">
-          Isao Kozakai
+        <Col>
+          <h1 className="landing-title">
+            Hello, I'm Isao Kozakai.<br/>
+            I'm a full-stack web developer.
+          </h1>
         </Col>
       </Row>
       <Row>
-        <Col className="display-4 font-weight-bold text-center mt-4">
-          Web Developer
-        </Col>
-      </Row>
-      <Row>
-        <Col className="h1 text-center mt-3">
-          Vancouver, BC
+        <Col className="text-center mt-3">
+          <h2 className="landing-title">Vancouver, BC</h2>
         </Col>
       </Row>
     </Container>
