@@ -6,15 +6,11 @@ const Landing = () => {
     <Container className="landing pt-4 pb-5" fluid>
       <Row>
         <Col>
-          <h1 className="landing-title">
-            Hello, I'm Isao Kozakai.<br/>
-            I'm a web developer.
-          </h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="text-center mt-3">
-          <h2 className="landing-title">Vancouver, BC</h2>
+          <div className="landing-title">
+            <span>Isao Kozakai</span><br />
+            Web developer<br />
+            Vancouver, BC
+          </div>
         </Col>
       </Row>
     </Container>

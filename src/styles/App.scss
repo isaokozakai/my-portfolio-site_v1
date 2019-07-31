@@ -27,10 +27,14 @@
 }
 
 .landing-title {
-  margin: auto;
-  text-align: center;
+  margin-left: 100px;
+  text-align: left;
   font-weight: bold;
-  width: 50%;
+  font-size: 3rem;
+  span {
+    width: 50%;
+    font-size: 5rem;
+  }
 }
 
 #about {

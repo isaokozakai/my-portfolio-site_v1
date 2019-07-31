@@ -11,18 +11,13 @@ import {
 } from 'reactstrap';
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <Navbar className="navbar" expand="sm">
       <Container  fluid>
         <NavbarBrand href="/">
-          <h4 className="navbar-title">My Portfolio</h4></NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse className="justify-content-end" isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <h4 className="navbar-title">My Portfolio</h4>
+        </NavbarBrand>
+          <Nav className="ml-auto justify-content-end" navbar>
             <NavItem>
               <HashLink smooth to="#about"><div className="navbar-menu">About</div></HashLink>
             </NavItem>
@@ -33,7 +28,6 @@ const Navigation = () => {
               <HashLink smooth to="#contact"><div className="navbar-menu">Contact</div></HashLink>
             </NavItem>
           </Nav>
-        </Collapse>
       </Container>
     </Navbar>
   )
