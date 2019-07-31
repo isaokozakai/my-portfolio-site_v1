@@ -27,11 +27,12 @@
 }
 
 .landing-title {
-  margin-left: 100px;
-  text-align: left;
+  margin: auto;
+  text-align: center;
   font-weight: bold;
   font-size: 3rem;
   span {
+    margin-top: 2px;
     width: 50%;
     font-size: 5rem;
   }
