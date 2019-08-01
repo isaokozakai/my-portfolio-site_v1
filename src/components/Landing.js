@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 
 const Landing = () => {
   return (
-    <Container className="landing pt-4 pb-5" fluid>
+    <Container className="landing pt-3 pb-5" fluid>
       <Row>
         <Col>
           <div className="landing-title">

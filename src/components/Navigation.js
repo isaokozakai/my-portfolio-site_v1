@@ -15,17 +15,17 @@ const Navigation = () => {
     <Navbar className="navbar" expand="xs">
       <Container  fluid>
         <NavbarBrand href="/">
-          <h4 className="navbar-title">My Portfolio</h4>
+          <h1 className="navbar-title" alt="Isao"><img src="%PUBLIC_URL%/fabicon.ico"/></h1>
         </NavbarBrand>
           <Nav className="ml-auto justify-content-end" navbar>
             <NavItem>
-              <HashLink smooth to="#about"><div className="navbar-menu">About</div></HashLink>
+              <HashLink className="navbar-menu" smooth to="#about">About</HashLink>
             </NavItem>
             <NavItem>
-              <HashLink smooth to="#projects"><div className="navbar-menu">Projects</div></HashLink>
+              <HashLink className="navbar-menu" smooth to="#projects">Projects</HashLink>
             </NavItem>
             <NavItem>
-              <HashLink smooth to="#contact"><div className="navbar-menu">Contact</div></HashLink>
+              <HashLink className="navbar-menu" smooth to="#contact">Contact</HashLink>
             </NavItem>
           </Nav>
       </Container>
