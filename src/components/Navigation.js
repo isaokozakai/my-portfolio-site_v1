@@ -12,7 +12,7 @@ import {
 
 const Navigation = () => {
   return (
-    <Navbar className="navbar" expand="sm">
+    <Navbar className="navbar" expand="xs">
       <Container  fluid>
         <NavbarBrand href="/">
           <h4 className="navbar-title">My Portfolio</h4>
