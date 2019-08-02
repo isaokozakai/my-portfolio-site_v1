@@ -15,11 +15,11 @@ const Contact = (props) => (
       <Col>
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/isao-kozakai-019536a2/" rel="noopener noreferrer" target="_blank">
-          <i className="fa fa-linkedin-square fa-4x" aria-hidden="true" />
+          <i className="fab fa-linkedin fa-4x" aria-hidden="true" />
         </a>
         {/* GitHub */}
         <a href="https://github.com/isaokozakai" rel="noopener noreferrer" target="_blank">
-          <i className="fa fa-github-square fa-4x" aria-hidden="true" />
+          <i className="fab fa-github-square fa-4x" aria-hidden="true" />
         </a>
       </Col>
     </Row>

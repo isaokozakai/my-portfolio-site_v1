@@ -3,9 +3,10 @@
   background-color: #91e280;
 }
 
-.navbar-title {
+.logo {
+  margin-top: 10px;
+  margin-left: 15px;
   color: #3a3a3a;
-  font-weight: bold;
   justify-content: start;
 }
 
@@ -20,13 +21,9 @@
   margin-right: 15px;
 }
 
-.navbar-menu:hover {
+.logo:hover, .navbar-menu:hover {
   color: gray;
   text-decoration: none;
-}
-
-.button--link {
-  background: none;
 }
 
 .landing {
@@ -43,7 +40,7 @@
     font-size: 2rem;
   }
   span {
-    margin-top: 2px;
+    margin-top: 0.5rem;
     width: 50%;
     font-size: 4.5rem;
     @media screen and (max-width: 576px) {
@@ -64,6 +61,7 @@
     width: 50%;
     border-bottom: 0.1rem solid black;
   }
+
   .contact-title-column {
     margin-bottom: 0.2rem;
   }
