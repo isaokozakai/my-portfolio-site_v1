@@ -9,7 +9,7 @@ const Contact = (props) => (
       </Col>
     </Row>
     <Row className="contact-content">
-      <Col className="h3 text-center">feat130@hotmail.co.jp</Col>
+      <Col className="h3 text-center">isaokozakai@gmail.com</Col>
     </Row>
     <Row className="contact-content text-center">
       <Col>

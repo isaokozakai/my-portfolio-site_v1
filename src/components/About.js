@@ -4,14 +4,16 @@ import { Row, Col } from 'reactstrap';
 const About = () => {
   return (
     <Row id="about" className="mt-5 mb-5">
-      <Col className="mt-3" sm>
+      <Col sm>
         <h2>About me</h2>
         <div>
-          I had been working as a web developer in Japan.<br/>
-          At the time, I was mainly using Java.<br/>
+          My name is Isao Kozakai.<br/>
+          I had been working as a web developer for 5 years.<br/>
+          I like coding with React or Node.js.<br/>
         </div>
       </Col>
       <Col sm>
+        <h2>Skills</h2>
         <ul>
           <li>JavaScript</li>
           <li>React/Redux</li>

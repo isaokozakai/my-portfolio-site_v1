@@ -13,7 +13,8 @@
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.0",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "yarn": "^1.17.3"
   },
   "scripts": {
     "start": "react-scripts start",
