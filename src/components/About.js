@@ -3,17 +3,17 @@ import { Row, Col } from 'reactstrap';
 
 const About = () => {
   return (
-    <Row id="about" className="mt-5 mb-5">
+    <Row id="about">
       <Col sm>
-        <h2>About me</h2>
+        <h1 className="headline">About Me</h1>
         <div>
           My name is Isao Kozakai.<br/>
-          I had been working as a web developer for 5 years.<br/>
-          I like coding with React or Node.js.<br/>
+          I'm a web developer who has experience coding with Java, JavaScript and HTML/CSS.<br/>
+          I like coding with React and Node.js.<br/>
         </div>
       </Col>
       <Col sm>
-        <h2>Skills</h2>
+        <h1 className="headline">Skills</h1>
         <ul>
           <li>JavaScript</li>
           <li>React/Redux</li>

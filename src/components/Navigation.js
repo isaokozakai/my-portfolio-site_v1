@@ -10,7 +10,7 @@ import {
 
 const Navigation = () => {
   return (
-    <Navbar className="navbar" expand="xs">
+    <Navbar className="navbar sticky-top" expand>
       <Container fluid>
         <NavbarBrand href="/">
           <h1 className="logo" alt="Isao"><i class="fas fa-seedling fa-1x" aria-hidden="true"></i></h1>
@@ -27,7 +27,7 @@ const Navigation = () => {
           </NavItem>
         </Nav>
       </Container>
-    </Navbar>
+    </Navbar >
   )
 }
 

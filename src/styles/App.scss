@@ -1,3 +1,7 @@
+body {
+  font-family: 'Arial',sans-serif;
+}
+
 .navbar {
   color: #3a3a3a;
   background-color: #91e280;
@@ -5,8 +9,9 @@
 }
 
 .logo {
-  margin-top: 1.5rem;
+  margin-top: 1.3rem;
   margin-left: 0.7rem;
+  margin-bottom: 1.3rem;
   color: #3a3a3a;
   justify-content: start;
 }
@@ -19,12 +24,13 @@
   line-height: 1;
   text-decoration: none;
   justify-content: end;
-  margin-right: 15px;
+  margin-right: 17px;
 }
 
 .logo:hover, .navbar-menu:hover {
   color: gray;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
 .landing {
@@ -51,7 +57,11 @@
 }
 
 #about {
-  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+#projects {
+  margin-top: 2.5rem;
 }
 
 #contact {
@@ -78,4 +88,10 @@
   i {
     color: gray;
   }
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1em;
 }
