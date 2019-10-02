@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +21,10 @@ body {
   color: black;
   background-color: white;
 
+  a {
+    text-decoration: none;
+  }
+
   .container {
     height: 70%;
     padding: 0 90px;
@@ -25,43 +33,42 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-}
 
-.logo {
-  font-size: 40px;
-  margin-top: 1.3rem;
-  margin-left: 0.7rem;
-  margin-bottom: 1.3rem;
-  color: black;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-
-.nav-menu {
-  ul {
-    margin: 1rem 0;
-    text-align: center;
-  }
-
-  li {
-    display: inline;
-    border-radius: 3px;
-  }
-
-  a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 1.5rem;
+  .logo {
+    font-size: 40px;
+    margin-top: 1.3rem;
+    margin-left: 0.7rem;
+    margin-bottom: 1.3rem;
     color: black;
     transition-duration: 0.2s;
+    cursor: pointer;
   }
-}
 
-.logo:hover, .nav-menu a:hover {
-  color: gray;
-  text-decoration: none;
+  .nav-menu {
+    ul {
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    li {
+      display: inline;
+      border-radius: 3px;
+    }
+  
+    a {
+      color: black;
+      font-weight: bold;
+      display: inline-block;
+      padding: 0 1.5rem;
+      transition-duration: 0.2s;
+    }
+  }
+  
+  .logo:hover, .nav-menu a:hover {
+    color: gray;
+    text-decoration: none;
+  }
+  
 }
 
 .row {
