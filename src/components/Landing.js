@@ -1,19 +1,16 @@
-import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import React from 'react';
 
 const Landing = () => {
   return (
-    <Container className="landing pt-3 pb-5" fluid>
-      <Row>
-        <Col>
-          <div className="landing-title">
-            <span>Isao Kozakai</span><br />
-            Web developer<br />
-            Vancouver, BC
-          </div>
-        </Col>
-      </Row>
-    </Container>
+    <div className="landing">
+      <div className="container">
+        <div className="landing-title">
+          <span>Isao Kozakai</span><br />
+          Full-Stack Web Developer<br />
+          Vancouver, BC
+      </div>
+      </div>
+    </div>
   );
 };
 

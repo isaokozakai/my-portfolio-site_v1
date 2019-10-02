@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/App.scss';
-import { Container } from 'reactstrap';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import Landing from './components/Landing';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -11,14 +10,12 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <Navigation />
+      <Header />
       <Landing />
-      <Container fluid>
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </Container>
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
