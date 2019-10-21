@@ -1,0 +1,197 @@
+@media (min-width: 960px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial',sans-serif;
+  }
+
+  .container {
+    padding: 40px 90px;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+    color: black;
+    background-color: #6ab187;
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      height: 70%;
+      padding: 0 90px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 40px;
+    margin-top: 1.3rem 0 1.3rem 0.7rem;
+      color: black;
+      transition-duration: 0.2s;
+      cursor: pointer;
+    }
+
+    nav {
+      ul {
+        margin: 1rem 0;
+        text-align: center;
+      }
+    
+      li {
+        display: inline-block;
+        border-radius: 3px;
+      }
+    
+      a {
+        color: black;
+        font-weight: bold;
+        display: inline-block;
+        padding: 0 1.5rem;
+        transition-duration: 0.2s;
+      }
+    }
+    
+    .logo:hover, nav a:hover {
+      color: gray;
+      text-decoration: none;
+    }
+    
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .col {
+      flex: 1;
+    }
+  }
+
+  #landing {
+    color: black;
+    background-color: #6ab187;
+    min-height: 85vh;
+  }
+
+  .landing-title {
+    margin: 100px auto;
+    text-align: left;
+    font-weight: bold;
+
+    h1 {
+      margin: 1rem 0;
+      width: 50%;
+      font-size: 4.5rem;
+      @media screen and (max-width: 576px) {
+        font-size: 3rem;
+      }
+    }
+
+    h2 {
+      margin: 1rem 0;
+      font-size: 2.5rem;
+      @media screen and (max-width: 576px) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .headline {
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 40px;
+    position: relative;
+  }
+
+  .headline::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    bottom: -5px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: brown;
+  }
+
+  #about {
+    min-height: 100vh;
+    .row {
+      margin-top: 30px;
+      text-align: left;
+    }
+    h3 {
+      margin: 0;
+    }
+  }
+
+  #projects {
+    min-height: 100vh;
+    .row {
+      justify-content: center;
+      .card {
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.2s;
+        width: 80%;
+        height: 60px;
+      }
+    
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+    }
+  }
+
+  #contact {
+    margin-bottom: 3rem;
+    margin: 0 auto;
+    text-align: center;
+
+    .email {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+
+      a {
+        margin: 0 5px;
+      }
+
+      i {
+        color: gray;
+      }
+    }
+  }
+
+  footer {
+    text-align: center;
+    margin: 2rem auto;
+  }
+}

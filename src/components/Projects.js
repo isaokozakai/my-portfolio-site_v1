@@ -1,19 +1,23 @@
 import React from 'react';
 
 const Project = () => (
-  <div id="projects" className="container">
+  <section id="projects" className="container">
     <h2 className="headline">Projects</h2>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-  </div>
+    <div className="row">
+      <div className="col">
+        <div className="card">
+        </div>
+      </div>
+      <div className="col">
+        <div className="card">
+        </div>
+      </div>
+      <div className="col">
+        <div className="card">
+        </div>
+      </div>
+    </div>
+  </section>
 )
 
 export default Project;

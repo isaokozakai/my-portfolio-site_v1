@@ -2,15 +2,13 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div className="landing">
-      <div className="container">
-        <div className="landing-title">
-          <span>Isao Kozakai</span><br />
-          Full-Stack Web Developer<br />
-          Vancouver, BC
+    <section id="landing" className="container">
+      <div className="landing-title">
+        <h1>Isao Kozakai</h1>
+        <h2>Full-Stack Web Developer</h2>
+        <h2>Vancouver, BC</h2>
       </div>
-      </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ const Header = () => {
             <i className="fas fa-seedling fa-1x" aria-hidden="true"></i>
           </h1>
         </a>
-        <nav className="nav-menu">
+        <nav>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
