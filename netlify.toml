@@ -1,4 +1,4 @@
 [build]
 base = "git@github.com:isaokozakai/my-portfolio-site_v1.git/"
-publish = "build/"
+publish = "git@github.com:isaokozakai/my-portfolio-site_v1.git/build/"
 command = "npm run build"
