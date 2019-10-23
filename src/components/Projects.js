@@ -7,7 +7,7 @@ const Project = () => (
       <div className="col">
         <a href="https://isao-bulletin-board-service.herokuapp.com">
           <div className="card">
-            <img src="../../images/Bulletin_Board_App.png" />
+            <img src="images/Bulletin_Board_App.png" />
             <p>Technologies</p>
             <ul>
               <li>React/Redux</li>
