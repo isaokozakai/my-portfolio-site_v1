@@ -20,7 +20,10 @@ a {
 }
 
 #header {
-  position: sticky;
+  position: fixed;
+  top: 0;
+  height: 15vh;
+  min-height: 10vh;
   width: 100%;
   color: black;
   background-color: #6ab187;
@@ -150,9 +153,9 @@ section {
   min-height: 100vh;
   .grid-container {
     display: grid;
-    align-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, 340px);
+    grid-auto-flow: row;
     text-align: left;
     .card {
       transition: 0.2s;

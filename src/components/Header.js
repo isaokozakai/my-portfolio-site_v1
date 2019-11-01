@@ -4,10 +4,10 @@ const Header = () => {
   useEffect(() => {
     window.onscroll = () => {
       const header = document.getElementById("header");
-      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        header.style.height = "10%";
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        header.style.height = "10vh";
       } else {
-        header.style.height = "20%";
+        header.style.height = "15vh";
       }
     };
   }, []);
