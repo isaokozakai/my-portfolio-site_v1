@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Header = () => {
+  useEffect(() => {
+    window.onscroll = () => {
+      const header = document.getElementById("header");
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        header.style.height = "10%";
+      } else {
+        header.style.height = "20%";
+      }
+    };
+  }, []);
+
   return (
-    <header className="header">
+    <header id="header">
       <div className="container">
         <a href="/">
           <h1 className="logo" alt="Isao">

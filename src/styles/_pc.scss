@@ -16,7 +16,9 @@
     margin: 0 auto;
   }
 
-  .header {
+  #header {
+    position: fixed;
+    top: 0;
     width: 100%;
     color: black;
     background-color: #6ab187;
@@ -26,17 +28,14 @@
     }
 
     .container {
-      height: 70%;
       padding: 0 90px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
     }
 
     .logo {
       font-size: 40px;
-    margin-top: 1.3rem 0 1.3rem 0.7rem;
       color: black;
       transition-duration: 0.2s;
       cursor: pointer;
@@ -44,7 +43,6 @@
 
     nav {
       ul {
-        margin: 1rem 0;
         text-align: center;
       }
     
