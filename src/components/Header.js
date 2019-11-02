@@ -6,8 +6,10 @@ const Header = () => {
       const header = document.getElementById("header");
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         header.style.height = "10vh";
+        header.style.backgroundColor = "#666";
       } else {
         header.style.height = "15vh";
+        header.style.backgroundColor = "transparent";
       }
     };
   }, []);
