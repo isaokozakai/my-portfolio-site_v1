@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = () => (
   <section id="projects" className="container">
-    <h2 className="headline">Projects</h2>
+    <h2 className="headline">PROJECTS</h2>
     <div className="grid-container">
       <div className="col">
         <a href="https://isao-bulletin-board-service.herokuapp.com">

@@ -2,9 +2,7 @@ import React from 'react';
 
 const Contact = (props) => (
   <section id="contact" className="container">
-    <h2 className="headline">
-      Contact
-    </h2>
+    <h2 className="headline">CONTACT</h2>
     <div className="contact-content">
       <div className="email"><a href="mailto:isaokozakai@gmail.com">isaokozakai@gmail.com</a></div>
       <div className="social-media">
