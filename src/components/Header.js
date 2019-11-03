@@ -2,15 +2,28 @@ import React, { useEffect } from 'react';
 
 const Header = () => {
   useEffect(() => {
-    window.onscroll = () => {
+    const headerHeight = "100";
+    const shrunkenHeaderHeigt = "50";
+    document.onscroll = () => {
       const header = document.getElementById("header");
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        header.style.height = "10vh";
+        header.style.height = `${shrunkenHeaderHeigt}px`;
         header.style.backgroundColor = "#666";
       } else {
-        header.style.height = "15vh";
+        header.style.height = `${headerHeight}px`;
         header.style.backgroundColor = "transparent";
       }
+    };
+    document.onclick = e => {
+      const target = e.target;
+      if (!target.classList.contains("scroll-link")) return;
+      e.preventDefault();
+      const targetId = target.hash;
+      const targetElement = document.querySelector(targetId);
+      window.scrollTo({
+        top: targetElement.offsetTop - shrunkenHeaderHeigt,
+        behavior: "smooth"
+      });
     };
   }, []);
 
@@ -24,9 +37,9 @@ const Header = () => {
         </a>
         <nav>
           <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#about" className="scroll-link">ABOUT</a></li>
+            <li><a href="#projects" className="scroll-link">PROJECTS</a></li>
+            <li><a href="#contact" className="scroll-link">CONTACT</a></li>
           </ul>
         </nav>
       </div>
