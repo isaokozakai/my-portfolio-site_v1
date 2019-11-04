@@ -1,18 +1,15 @@
 import React, { useEffect } from 'react';
 
 const Header = () => {
-  const headerHeight = "100";
-  const shrunkenHeaderHeigt = "50";
-
   useEffect(() => {
     document.onscroll = () => {
       const header = document.getElementById("header");
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        header.style.height = `${shrunkenHeaderHeigt}px`;
-        header.style.backgroundColor = "#666";
+        header.classList.add("scrolled");
+        header.classList.remove("default");
       } else {
-        header.style.height = `${headerHeight}px`;
-        header.style.backgroundColor = "transparent";
+        header.classList.add("default");
+        header.classList.remove("scrolled");
       }
     };
   }, []);
@@ -24,17 +21,26 @@ const Header = () => {
       top: targetElement.offsetTop,
       behavior: "smooth"
     });
-  }
+    toggle();
+  };
+
+  const toggle = () => {
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('show');
+  };
 
   return (
-    <header id="header">
+    <header id="header" className="default">
       <div className="container">
         <a href="/">
           <h1 className="logo" alt="Isao">
             <i className="fas fa-seedling fa-1x" aria-hidden="true"></i>
           </h1>
         </a>
-        <nav>
+        <div className="toggler" onClick={toggle}>
+          <i className="fas fa-bars fa-2x"></i>
+        </div>
+        <nav id="nav">
           <ul>
             <li><a href="#about" onClick={onScrollLink}>ABOUT</a></li>
             <li><a href="#projects" onClick={onScrollLink}>PROJECTS</a></li>

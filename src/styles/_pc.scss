@@ -1,7 +1,19 @@
-@media (min-width: 960px) {
+@media (min-width: 760px) {
   .container {
     padding: 40px 90px;
     margin: 0 auto;
+  }
+
+  #header.default {
+    height: 100px;
+    min-height: 100px;
+    background-color: transparent;
+  }
+  
+  #header.scrolled {
+    height: 50px;
+    min-height: 50px;
+    background-color: #555;
   }
 
   #header {
@@ -11,7 +23,7 @@
 
     .container {
       padding: 0 90px;
-      display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: space-between;
     }
@@ -22,11 +34,18 @@
       cursor: pointer;
     }
 
-    nav {
+    .toggler {
+      display: none;
+    }
+
+    #nav {
+      display: flex;
+
       ul {
-        text-align: center;
+        flex-direction: row;
+        margin: auto 0;
       }
-    
+
       li {
         display: inline-block;
         border-radius: 3px;

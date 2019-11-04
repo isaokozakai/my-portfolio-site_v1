@@ -19,49 +19,75 @@ a {
   text-decoration: none;
 }
 
+#header.default {
+  height: auto;
+  min-height: 50px;
+  background-color: #555;
+}
+
+#header.scrolled {
+  height: auto;
+  min-height: 50px;
+  background-color: #555;
+}
+
 #header {
-  background-color: transparent;
+  color: white;
   position: fixed;
   top: 0;
-  height: 100px;
-  min-height: 50px;
   width: 100%;
   z-index: 2;
   transition: 0.5s;
 
   .container {
     height: 100%;
-    padding: 0 40px;
+    padding: 10px 40px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .logo {
     color: white;
-    font-size: 40px;
     margin: auto 0;
-    transition-duration: 0.2s;
+    transition: 0.2s;
     cursor: pointer;
   }
 
-  nav {
+  .toggler {
+    margin: auto 0;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  #nav.show {
+    display: flex;
+  }
+
+  #nav {
+    display: none;
+    transition: 0.5s;
+
     ul {
-      margin: auto 0;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0 0;
+      padding: 0;
+      text-align: left;
     }
   
     li {
       display: inline-block;
       border-radius: 3px;
-      margin: 0 5px;
+      margin: 5px 0;
     }
   
     a {
       color: white;
       font-weight: bold;
       display: inline-block;
-      transition-duration: 0.2s;
+      transition: 0.2s;
     }
   }
   
