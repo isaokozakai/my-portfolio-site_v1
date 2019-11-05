@@ -1,18 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Header = () => {
-  useEffect(() => {
-    document.onscroll = () => {
-      const header = document.getElementById("header");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        header.classList.add("scrolled");
-        header.classList.remove("default");
-      } else {
-        header.classList.add("default");
-        header.classList.remove("scrolled");
-      }
-    };
-  }, []);
+  const [headerClass, setHeaderClass] = useState("default");
+
+  document.onscroll = () => {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      setHeaderClass("scrolled");
+    } else {
+      setHeaderClass("default");
+    }
+  };
 
   const onScrollLink = (e) => {
     e.preventDefault();
@@ -30,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header id="header" className="default">
+    <header id="header" className={headerClass}>
       <div className="container">
         <a href="/">
           <h1 className="logo" alt="Isao">
