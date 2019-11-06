@@ -4,11 +4,9 @@ const Header = () => {
   const [headerClass, setHeaderClass] = useState("default");
 
   document.onscroll = () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      setHeaderClass("scrolled");
-    } else {
-      setHeaderClass("default");
-    }
+    setHeaderClass(
+      document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ?
+        "scrolled" : "default");
   };
 
   const onScrollLink = (e) => {
