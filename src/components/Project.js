@@ -3,7 +3,7 @@ import React from 'react';
 const Project = (props) => (
   <div className="col">
     <div className="card">
-      <img src={props.imageSrc} />
+      <img src={props.imageSrc} alt={props.imageAlt}/>
       <p>Technologies</p>
       <ul>
         {props.technologies.map((technology, index) => (

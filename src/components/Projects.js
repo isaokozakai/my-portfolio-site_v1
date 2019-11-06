@@ -7,6 +7,7 @@ const Projects = () => (
     <div className="grid-container">
       <Project
         imageSrc="images/sharedlist.png"
+        imageAlt="sharedlist"
         technologies={[
           "React", "Redux", "Node.js", "Express", "MongoDB"
         ]}
