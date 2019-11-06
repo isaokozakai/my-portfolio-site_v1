@@ -1,32 +1,18 @@
 import React from 'react';
+import Project from './Project';
 
-const Project = () => (
+const Projects = () => (
   <section id="projects" className="container">
     <h2 className="headline">PROJECTS</h2>
     <div className="grid-container">
-      <div className="col">
-        <a href="https://isao-bulletin-board-service.herokuapp.com">
-          <div className="card">
-            <img src="images/Bulletin_Board_App.png" />
-            <p>Technologies</p>
-            <ul>
-              <li>React/Redux</li>
-              <li>Node.js/Express</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
-        </a>
-      </div>
-      <div className="col">
-        <div className="card">
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-        </div>
-      </div>
+      <Project
+        imageSrc="images/sharedlist.png"
+        technologies={[
+          "React", "Redux", "Node.js", "Express", "MongoDB"
+        ]}
+      />
     </div>
   </section>
 )
 
-export default Project;
+export default Projects;
