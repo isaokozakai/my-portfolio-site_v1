@@ -5,7 +5,8 @@ const Project = (props) => (
     <div className="card">
       <img src={props.imageSrc} alt={props.imageAlt} />
       <div className="description">
-        <p>Technologies</p>
+        {props.children}
+        <p className="technologies">Technologies</p>
         <ul>
           {props.technologies.map((technology, index) => (
             <li key={index}>{technology}</li>

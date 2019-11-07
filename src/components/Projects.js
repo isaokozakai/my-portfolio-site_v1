@@ -11,7 +11,13 @@ const Projects = () => (
         technologies={[
           "React", "Redux", "Node.js", "Express", "MongoDB"
         ]}
-      />
+      >
+        <p>
+          This is a mockup bulletin board application,
+          which you can register an account, login/logout,
+          and read/create/edit/delete articles.
+        </p>
+      </Project>
     </div>
   </section>
 )

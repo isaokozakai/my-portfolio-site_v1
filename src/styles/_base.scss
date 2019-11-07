@@ -163,8 +163,8 @@ section {
   bottom: -5px;
   left: 25%;
   width: 50%;
-  height: 3px;
-  background-color: brown;
+  height: 4px;
+  background-color: rgba(brown, .9);
 }
 
 #about {
@@ -189,16 +189,22 @@ section {
     text-align: left;
 
     .card {
-      transition: 0.2s;
       height: 400px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
       img {
         width: 100%;
       }
       .description {
-        padding: 0 20px;
+        padding: 0 10px;
+        font-size: 17px;
+
+        .technologies {
+          display: inline-block;
+          margin: 5px 0 10px;
+          border-bottom: 2px solid rgba(#000, .8);
+        }
         ul {
+          margin-top: 0;
           padding: 0;
           list-style: none;
           display: flex;
@@ -216,9 +222,6 @@ section {
         }
       }
     }
-  
-    .card:hover {
-    }
   }
 }
 
@@ -234,6 +237,7 @@ section {
 
   a {
     text-decoration: none;
+    color: #222;
   }
 
   .social-media {

@@ -37,7 +37,6 @@
     }
 
     #nav {
-      display: flex;
       flex-basis: initial;
       flex-grow: initial;
 
@@ -48,25 +47,17 @@
 
       li {
         display: inline-block;
-        border-radius: 3px;
       }
     
       a {
-        font-weight: bold;
         display: inline-block;
         padding: 0 1.5rem;
-        transition-duration: 0.2s;
       }
     }    
   }
 
   .row {
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto;
     .col {
       flex: 1;
     }
@@ -78,35 +69,7 @@
   .landing-title {
   }
 
-  section {
-    text-align: center;
-  }
-
-  .headline {
-    display: inline-block;
-    font-size: 35px;
-    text-align: center;
-    margin: 20px 0 40px;
-    position: relative;
-  }
-
-  .headline::after {
-    position: absolute;
-    content: " ";
-    display: block;
-    bottom: -5px;
-    left: 25%;
-    width: 50%;
-    height: 3px;
-    background-color: brown;
-  }
-
   #about {
-    min-height: 100vh;
-    .row {
-      margin-top: 30px;
-      text-align: left;
-    }
     h3 {
       margin: 0;
     }
@@ -120,35 +83,8 @@
   }
 
   #contact {
-    margin-bottom: 3rem;
-    margin: 0 auto;
-    text-align: center;
-
     .email {
       font-size: 30px;
-      margin-bottom: 20px;
     }
-
-    a {
-      text-decoration: none;
-    }
-
-    .social-media {
-      display: flex;
-      justify-content: center;
-
-      a {
-        margin: 0 5px;
-      }
-
-      i {
-        color: gray;
-      }
-    }
-  }
-
-  footer {
-    text-align: center;
-    margin: 2rem auto;
   }
 }
