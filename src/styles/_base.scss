@@ -54,12 +54,11 @@ a {
   #nav.show {
     display: flex;
   }
-
+  
   #nav {
     display: none;
     flex-basis: 100%;
     flex-grow: 1;
-    transition: 0.5s;
 
     ul {
       margin: 10px 0 0;
@@ -185,8 +184,8 @@ section {
     margin-top: 10px;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, 340px);
-    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, auto);
+    grid-auto-flow: column;
     text-align: left;
 
     .card {
@@ -197,21 +196,23 @@ section {
       img {
         width: 100%;
       }
-
-      ul {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-content: space-between;
+      .description {
         padding: 0 20px;
-        li {
-          display: inline-block;
-          border: 1px solid black;
-          border-radius: 5px;
-          text-align: center;
-          padding: 0 2px;
-          margin: 0 3px 7px;
+        ul {
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-content: space-between;
+          li {
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            padding: 0 2px;
+            margin: 0 3px 7px;
+          }
         }
       }
     }
@@ -250,7 +251,6 @@ section {
 }
 
 footer {
-  width: 100%;
   text-align: center;
   margin: 2rem auto;
 }
