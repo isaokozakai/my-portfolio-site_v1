@@ -11,7 +11,7 @@ const Projects = () => (
         technologies={[
           "React", "Redux", "Node.js", "Express", "MongoDB"
         ]}
-        websiteUrl="https://isao-bulletin-board-service.herokuapp.com/"
+        websiteUrl="https://isao-sharedlist.herokuapp.com/"
         githubUrl="https://github.com/isaokozakai/mern-bbs"
       >
         <p>
