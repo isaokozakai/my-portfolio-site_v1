@@ -6,7 +6,7 @@ const About = () => {
       <h2 className="headline">ABOUT</h2>
       <div className="row">
         <div className="col">
-          <div>
+          <div className="intro">
             My name is Isao Kozakai.<br />
             I'm a full-stack web developer with 5 years of professional experience, based in Vancouver<br />
             I'm interested in coding with React and Node.js.<br />

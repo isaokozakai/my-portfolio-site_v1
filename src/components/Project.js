@@ -1,18 +1,19 @@
 import React from 'react';
 
-const Project = (props) => (
+const Project = ({ imageSrc, imageAlt, children, technologies, websiteUrl, githubUrl }) => (
   <div className="col">
-    <div className="card">
-      <img src={props.imageSrc} alt={props.imageAlt} />
-      <div className="description">
-        {props.children}
-        <p className="technologies">Technologies</p>
-        <ul>
-          {props.technologies.map((technology, index) => (
-            <li key={index}>{technology}</li>
-          ))}
-        </ul>
-      </div>
+    <img src={imageSrc} alt={imageAlt} />
+    <div className="description">
+      {children}
+      <ul>
+        {technologies.map((technology, index) => (
+          <li key={index}>{technology}</li>
+        ))}
+      </ul>
+    </div>
+    <div className="project-links">
+      <a href={websiteUrl} className="website">Visit Website</a>
+      <a href={githubUrl} className="github"><i className="fab fa-github fa-1x"></i>Source Code</a>
     </div>
   </div>
 )

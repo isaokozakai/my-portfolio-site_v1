@@ -37,6 +37,7 @@
     }
 
     #nav {
+      display: flex;
       flex-basis: initial;
       flex-grow: initial;
 
@@ -56,13 +57,6 @@
     }    
   }
 
-  .row {
-    flex-direction: row;
-    .col {
-      flex: 1;
-    }
-  }
-
   #landing {
   }
 
@@ -70,8 +64,11 @@
   }
 
   #about {
-    h3 {
-      margin: 0;
+    .row {
+      flex-direction: row;
+      .col {
+        flex: 1;
+      }
     }
   }
 
