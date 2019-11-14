@@ -57,18 +57,15 @@
     }    
   }
 
-  #landing {
-  }
-
-  .landing-title {
-  }
-
   #about {
     .row {
       flex-direction: row;
       .col {
         flex: 1;
       }
+    }
+    .intro {
+      margin-right: 40px;
     }
   }
 

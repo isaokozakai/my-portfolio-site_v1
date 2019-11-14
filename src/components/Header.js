@@ -20,8 +20,8 @@ const Header = () => {
   };
 
   const toggle = () => {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('show');
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("show");
   };
 
   return (

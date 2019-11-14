@@ -9,7 +9,7 @@ const Projects = () => (
         imageSrc="images/sharedlist.png"
         imageAlt="sharedlist"
         technologies={[
-          "React", "Redux", "Node.js", "Express", "MongoDB"
+          "React", "Redux", "HTML", "CSS", "Bootstrap", "Node.js", "Express", "MongoDB"
         ]}
         websiteUrl="https://isao-sharedlist.herokuapp.com/"
         githubUrl="https://github.com/isaokozakai/mern-bbs"

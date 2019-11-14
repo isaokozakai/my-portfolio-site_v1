@@ -8,21 +8,24 @@ const About = () => {
         <div className="col">
           <div className="intro">
             My name is Isao Kozakai.<br />
-            I'm a full-stack web developer with 5 years of professional experience, based in Vancouver<br />
-            I'm interested in coding with React and Node.js.<br />
+            I'm a full-stack web developer with 5 years of professional experience, based in Vancouver.<br />
+            Always happy to learn new technologies and am confident in my ability to learn quickly.<br />
+            Dedicated and detailed team player with responsibility.
           </div>
         </div>
         <div className="col">
           <h3>Skills</h3>
           <ul>
             <li>JavaScript</li>
-            <li>React/Redux</li>
-            <li>Node.js/Express</li>
+            <ul>
+              <li>React/Redux</li>
+              <li>Node.js/Express</li>
+              <li>jQuery</li>
+            </ul>
             <li>MongoDB</li>
             <li>GraphQL</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>jQuery</li>
             <li>Java</li>
             <li>SQL (Oracle Database, MySQL)</li>
           </ul>
