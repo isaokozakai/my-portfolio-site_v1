@@ -197,7 +197,6 @@ section {
     display: grid;
     grid-gap: 30px;
     justify-content: space-between;
-    grid-template-rows: repeat(auto-fill, auto);
 
     .col {
       background-color: #ddd;
