@@ -198,37 +198,45 @@ section {
     justify-content: space-between;
     grid-template-columns: repeat(auto-fill, auto);
     grid-auto-flow: column;
-    text-align: left;
 
     .col {
-      height: 400px;
+      height: 430px;
+      background-color: #ddd;
 
       img {
         width: 100%;
+        overflow-y: hidden;
       }
       .description {
+        text-align: left;
         padding: 0 10px;
         font-size: 17px;
 
+        p {
+          min-height: 70px;
+        }
+
         ul {
+          min-height: 60px;
           margin-top: 5px;
           padding: 0;
           list-style: none;
           display: flex;
           flex-wrap: wrap;
           justify-content: flex-start;
-          align-content: space-between;
+          align-content: flex-start;
           li {
             display: inline-block;
             border: 1px solid black;
             border-radius: 5px;
             text-align: center;
-            padding: 0 2px;
+            padding: 0 3px;
             margin: 0 3px 7px;
           }
         }
       }
       .project-links {
+        margin: 10px 0;
         display: flex;
         justify-content: space-evenly;
         a {

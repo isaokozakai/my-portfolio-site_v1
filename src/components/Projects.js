@@ -9,7 +9,7 @@ const Projects = () => (
         imageSrc="images/sharedlist.png"
         imageAlt="sharedlist"
         technologies={[
-          "React", "Redux", "HTML", "CSS", "Bootstrap", "Node.js", "Express", "MongoDB"
+          "React", "Redux", "HTML", "CSS", "Bootstrap", "Node.js", "Express", "MongoDB", "JWT"
         ]}
         websiteUrl="https://isao-sharedlist.herokuapp.com/"
         githubUrl="https://github.com/isaokozakai/mern-bbs"
@@ -18,6 +18,20 @@ const Projects = () => (
           This is a mockup bulletin board application,
           which you can register an account, login/logout,
           and read/create/edit/delete articles.
+        </p>
+      </Project>
+      <Project
+        imageSrc="images/flight-search.png"
+        imageAlt="flight-search"
+        technologies={[
+          "jQuery", "Ajax", "Web API", "HTML", "CSS"
+        ]}
+        websiteUrl="https://isaokozakai.github.io/flight-search/"
+        githubUrl="https://github.com/isaokozakai/flight-search"
+      >
+        <p>
+          This is a mockup flight tickets search application,
+          which uses the Skyscanner API.
         </p>
       </Project>
     </div>
