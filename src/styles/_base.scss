@@ -155,7 +155,8 @@ section {
   left: 25%;
   width: 50%;
   height: 4px;
-  background-color: rgba(brown, .9);
+  background-color: brown;
+  filter: blur(.3px);
 }
 
 #about {
