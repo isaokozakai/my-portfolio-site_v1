@@ -4,32 +4,23 @@
     margin: 0 auto;
   }
 
-  #header.default {
-    height: 100px;
-    min-height: 100px;
-    background-color: transparent;
-  }
-  
-  #header.scrolled {
-    height: 50px;
-    min-height: 50px;
-    background-color: #555;
-  }
-
   #header {
-    a {
-      text-decoration: none;
+    &.default {
+      height: 100px;
+      min-height: 100px;
+      background-color: transparent;
     }
-
+    &.scrolled {
+      height: 50px;
+      min-height: 50px;
+      background-color: #555;
+    }
     .container {
       padding: 0 90px;
-      align-items: center;
     }
-
     .logo {
-      font-size: 40px;
-      transition-duration: 0.2s;
-      cursor: pointer;
+      height: auto;
+      width: 10%;
     }
 
     .toggler {

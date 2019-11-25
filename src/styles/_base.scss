@@ -18,6 +18,9 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 #header {
@@ -37,13 +40,27 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
   }
-
   .logo {
-    color: white;
     margin: auto 0;
-    transition: 0.2s;
     cursor: pointer;
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    svg {
+      height: 100%;
+      width: 100%;
+      path {
+        fill: white;
+        dominant-baseline: central;
+        transition: 0.3s;
+      }
+    }
+    
+    &:hover svg path {
+      fill: orange;
+    }
   }
 
   .toggler {
@@ -75,15 +92,12 @@ a {
     a {
       color: white;
       font-weight: bold;
-      transition: 0.2s;
+      transition: 0.3s;
+      &:hover {
+        color: orange;
+      }
     }
   }
-  
-  .logo:hover, #nav a:hover {
-    color: orange;
-    text-decoration: none;
-  }
-  
 }
 
 main {

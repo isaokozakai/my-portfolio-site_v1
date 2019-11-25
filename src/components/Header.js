@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logo from './Logo'
 
 const Header = () => {
   const [headerClass, setHeaderClass] = useState("default");
@@ -27,11 +28,7 @@ const Header = () => {
   return (
     <header id="header" className={headerClass}>
       <div className="container">
-        <a href="/">
-          <h1 className="logo" alt="Isao">
-            <i className="fas fa-seedling fa-1x" aria-hidden="true"></i>
-          </h1>
-        </a>
+        <Logo />
         <div className="toggler" onClick={toggle}>
           <i className="fas fa-bars fa-2x"></i>
         </div>
