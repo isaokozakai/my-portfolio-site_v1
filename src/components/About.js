@@ -8,9 +8,7 @@ const About = () => {
         <div className="col">
           <div className="intro">
             My name is Isao Kozakai.<br />
-            I'm a full-stack web developer with 5 years of professional experience, based in Vancouver.<br />
-            Always happy to learn new technologies and am confident in my ability to learn quickly.<br />
-            Dedicated and detailed team player with responsibility.
+            I'm a full-stack web developer with 5 years of professional experience, based in Vancouver. I'm always happy and willing to learn new technologies, and am confident in my ability to learn quickly. I'm a dedicated and detail oriented team player with responsibility who can work well under pressure.
           </div>
         </div>
         <div className="col">
