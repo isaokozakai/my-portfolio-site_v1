@@ -262,23 +262,21 @@ section {
           transition: 0.3s;
         }
         .website {
-          color: #dd3d31;
-          border: 1px solid #dd3d31 ;
-        }
-        .website:hover {
           background-color: #dd3d31;
           color: white;
         }
+        .website:hover {
+          transform: scale(1.2);
+        }
         .github {
-          color: #333;
-          border: 1px solid #333 ;
+          background-color: #333;
+          color: white;
           i {
             margin-right: 5px;
           }
         }
         .github:hover {
-          background-color: #333;
-          color: white;
+          transform: scale(1.2);
         }
       }
     }
