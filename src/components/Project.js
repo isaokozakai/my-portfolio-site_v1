@@ -13,7 +13,7 @@ const Project = ({ imageSrc, imageAlt, children, technologies, websiteUrl, githu
     </div>
     <div className="project-links">
       <a href={websiteUrl} rel="noopener noreferrer" target="_blank" className="website">Visit Website</a>
-      <a href={githubUrl} rel="noopener noreferrer" target="_blank" className="github"><i className="fab fa-github fa-1x"></i>Source Code</a>
+      <a href={githubUrl} rel="noopener noreferrer" target="_blank" className="github"><i className="fab fa-github fa-1x"></i>Learn More</a>
     </div>
   </div>
 )
