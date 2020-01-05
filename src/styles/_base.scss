@@ -68,15 +68,18 @@ a {
     margin: auto 0;
     cursor: pointer;
   }
-
-  #nav.show {
-    display: flex;
-  }
   
   #nav {
+    max-height: 100px;
+    overflow: hidden;
     display: none;
     flex-basis: 100%;
     flex-grow: 1;
+
+    &.show {
+      display: flex;
+      max-height: auto;
+    }
 
     ul {
       margin: 10px 0 0;
@@ -87,15 +90,14 @@ a {
       li {
         border-radius: 3px;
         margin: 5px 0;
-      }
-    }
-  
-    a {
-      color: white;
-      font-weight: bold;
-      transition: 0.3s;
-      &:hover {
-        color: orange;
+        a {
+          color: white;
+          font-weight: bold;
+          transition: 0.3s;
+          &:hover {
+            color: orange;
+          }
+        }
       }
     }
   }

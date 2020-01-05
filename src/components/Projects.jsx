@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import Project from './partials/Project';
 
 const Projects = () => (
   <section id="projects" className="container">
