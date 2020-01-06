@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Skill = ({ }) => (
+const Skill = ({ logoUrl, name }) => (
   <div className="col">
+    <img src={logoUrl} />
+    <p>{name}</p>
   </div>
 )
 
