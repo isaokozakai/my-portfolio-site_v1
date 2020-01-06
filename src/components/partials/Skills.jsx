@@ -20,7 +20,7 @@ const Skills = ({ category }) => {
   }
 
   return (
-    <div>
+    <div className="skills-container">
       <h4>{title}</h4>
       <div className="skills">
         {

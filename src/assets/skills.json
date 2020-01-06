@@ -60,7 +60,7 @@
     },
     {
       "name": "Couchbase Server",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/couchbase.svg"
+      "logoUrl": "https://cdn.worldvectorlogo.com/logos/couchbase-1.svg"
     },
     {
       "name": "MySQL",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Heroku",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/heroku-1.svg"
+      "logoUrl": "https://cdn.worldvectorlogo.com/logos/heroku.svg"
     }
   ]
 }

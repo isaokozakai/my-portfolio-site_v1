@@ -49,12 +49,19 @@
   }
 
   #about {
+    @media (min-width: 1020px) {
+      &.container {
+        padding: 40px 150px;
+      }
+    }
     .intro {
       margin-right: 40px;
     }
     .skills {
       .skill {
-        margin: auto 15px;
+        @media (min-width: 1020px) {
+          margin: 45px 65px;
+        }
         width: 85px;
         img {
           width: 100%;
@@ -68,9 +75,9 @@
     .grid-container  {
       grid-auto-flow: row;
       grid-template-columns: repeat(auto-fill, 280px);
-      @media (min-width: 768px) {
-        grid-template-columns: repeat(2, minmax(190px, 340px));
-      }
+      // @media (min-width: 768px) {
+      //   grid-template-columns: repeat(2, minmax(190px, 340px));
+      // }
       @media (min-width: 1020px) {
         grid-template-columns: repeat(auto-fill, minmax(250px, 380px));
       }

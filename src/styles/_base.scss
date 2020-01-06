@@ -163,18 +163,17 @@ section {
   margin: 20px 0 40px;
   position: relative;
   z-index: 0;
-}
-
-.headline::after {
-  position: absolute;
-  content: "";
-  display: block;
-  bottom: -5px;
-  left: 25%;
-  width: 50%;
-  height: 4px;
-  background-color: brown;
-  filter: blur(.3px);
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -5px;
+    left: 25%;
+    width: 50%;
+    height: 4px;
+    background-color: brown;
+    filter: blur(.3px);
+  }
 }
 
 #about {
@@ -183,9 +182,9 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 30px;
-    text-align: left;
+    text-align: center;
   }
   .intro {
     font-size: 18px;
@@ -193,19 +192,19 @@ section {
     line-height: 25px;
   }
 
-  h3 {
-    margin: 0;
-    font-size: xx-large;
+  .skills-container {
+    margin: 40px auto;
   }
-
   h4 {
     font-size: x-large;
+    text-align: center;
   }
 
   .skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     .skill {
       margin: 10px;
       width: 70px;
