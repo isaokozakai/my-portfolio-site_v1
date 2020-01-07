@@ -20,9 +20,9 @@ const Skills = ({ category }) => {
   }
 
   return (
-    <div className="skills-container">
+    <div className="skills-category">
       <h4>{title}</h4>
-      <div className="skills">
+      <div className="skills-body">
         {
           skills.map(({ logoUrl, name }) => (
             <div key={name} className="skill">

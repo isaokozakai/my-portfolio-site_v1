@@ -7,7 +7,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Acme', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .container {
@@ -172,12 +172,14 @@ section {
     width: 50%;
     height: 4px;
     background-color: brown;
-    filter: blur(.3px);
   }
 }
 
 #about {
   min-height: 100vh;
+  h3 {
+    font-size: x-large;
+  }
   .row {
     display: flex;
     flex-direction: column;
@@ -191,31 +193,34 @@ section {
     margin-bottom: 50px;
     line-height: 25px;
   }
-
-  .skills-container {
-    margin: 40px auto;
-  }
-  h4 {
-    font-size: x-large;
-    text-align: center;
-  }
-
   .skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    .skill {
-      margin: 10px;
-      width: 70px;
-      img {
-        margin: 0 auto;
-        width: 100%;
-        height: 60px;
-        object-fit: contain;
-      }
-      p {
+    .skills-category {
+      margin: 40px auto;
+      h4 {
+        margin-bottom: 10px;
+        border-bottom: 2px solid #444;
+        font-size: x-large;
         text-align: center;
+      }
+    
+      .skills-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .skill {
+          margin: 10px;
+          width: 70px;
+          img {
+            margin: 0 auto;
+            width: 100%;
+            height: 60px;
+            object-fit: contain;
+          }
+          p {
+            text-align: center;
+          }
+        }
       }
     }
   }
