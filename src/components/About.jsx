@@ -10,7 +10,7 @@ const About = () => {
         <div className="intro">
           <h3>Who I am</h3>
           <p>My name is Isao Kozakai. I'm a full-stack web developer based in Vancouver.
-          I was born and raised in a middle-sised city in Japan called Niigata.
+          I was born and raised in a middle-sized city in Japan called Niigata.
           I had been working as a software developer using mainly Java for 5 years.
             I'm always happy to and willing to learn new technologies, and am confident in my ability to learn quickly.<br />
             Besides programming, I like practicing martial arts.
