@@ -16,7 +16,7 @@ const About = () => {
             I'm always happy to and willing to learn new technologies, and am confident in my ability to learn quickly.<br />
             Besides programming, I like practicing martial arts.
             I have practiced a martial art called Jeet Kune Do for 5 years in Japan, which was founded by Bruce Lee.
-            I have been inspired by his words and life since I got to know about him.
+            I have been inspired by his words and life since I got to know about him after I started practicing Jeet Kune Do.
           </p>
           <h3>How I work</h3>
           <p>I'm a dedicated and detail-oriented team player with responsibility who can work well under pressure.</p>
