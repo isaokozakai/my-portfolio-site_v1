@@ -21,6 +21,19 @@ const Projects = () => (
         </p>
       </Project>
       <Project
+        imageSrc="images/tri-tech-co.png"
+        imageAlt="tri-tech-co"
+        technologies={[
+          "React", "HTML", "CSS"
+        ]}
+        websiteUrl="https://lucid-benz-f12be9.netlify.com/"
+        githubUrl="https://github.com/Vlad-Vekslyer/tri-tech"
+      >
+        <p>
+          This is a mockup company web site
+        </p>
+      </Project>
+      <Project
         imageSrc="images/flight-search.png"
         imageAlt="flight-search"
         technologies={[
