@@ -171,7 +171,7 @@ section {
     left: 25%;
     width: 50%;
     height: 4px;
-    background-color: brown;
+    background-color: forestgreen;
   }
 }
 
@@ -228,7 +228,7 @@ section {
 
 #projects {
   min-height: 100vh;
-  background-color: #c8e3f3;
+  background-color: #bbd9eb;
   .grid-container {
     margin-top: 15px;
     display: grid;
@@ -280,7 +280,7 @@ section {
           border-radius: 5px;
           padding: 7px 9px;
           text-align: center;
-          transition: 0.3s;
+          transition: 0.2s;
         }
         .website {
           background-color: #dd3d31;
