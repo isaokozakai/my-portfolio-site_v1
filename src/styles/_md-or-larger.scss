@@ -62,6 +62,7 @@
       .skills-category {
         .skills-body {
           .skill {
+            margin: 45px 50px;
             @media (min-width: 1020px) {
               margin: 45px 65px;
             }
@@ -79,9 +80,8 @@
   #projects {
     .grid-container  {
       grid-auto-flow: row;
-      grid-column-gap: 30px;
-      grid-row-gap: 40px;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 40px;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     }
   }
 

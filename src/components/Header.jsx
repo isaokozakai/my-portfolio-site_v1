@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Logo from './Logo'
 
 const Header = () => {
@@ -20,8 +20,9 @@ const Header = () => {
     toggle();
   };
 
+  const nav = useRef();
+
   const toggle = () => {
-    const nav = document.getElementById("nav");
     nav.classList.toggle("show");
   };
 
@@ -32,7 +33,7 @@ const Header = () => {
         <div className="toggler" onClick={toggle}>
           <i className="fas fa-bars fa-2x"></i>
         </div>
-        <nav id="nav">
+        <nav id="nav" ref={nav}>
           <ul>
             <li><a href="#about" onClick={onScrollLink}>ABOUT</a></li>
             <li><a href="#projects" onClick={onScrollLink}>PROJECTS</a></li>
