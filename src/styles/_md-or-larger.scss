@@ -4,7 +4,7 @@
     margin: 0 auto;
   }
 
-  #header {
+  header {
     &.default {
       height: 100px;
       min-height: 100px;
@@ -23,24 +23,10 @@
       width: 10%;
     }
 
-    .toggler {
-      display: none;
-    }
-
-    #nav {
+    nav {
       display: flex;
-      flex-basis: initial;
-      flex-grow: initial;
-
-      ul {
-        flex-direction: row;
-        margin: auto 0;
-      }
-
-      li {
-        display: inline-block;
-      }
-    
+      margin: auto 0;
+  
       a {
         display: inline-block;
         padding: 0 1.5rem;
