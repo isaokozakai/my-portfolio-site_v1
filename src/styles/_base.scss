@@ -7,7 +7,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Viga', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .container {
@@ -66,6 +66,7 @@ header {
   }
   
   nav {
+    font-weight: bold;
     &#toggleMenu {
     position: absolute;
     right: 0;
@@ -84,7 +85,6 @@ header {
         text-align: center;
         color: white;
         transition: 0.2s;
-        font-weight: bold;
         margin: 0;
         font-size: 20px;
         line-height: 35px;
@@ -195,6 +195,7 @@ section {
     font-size: 18px;
     margin-bottom: 50px;
     line-height: 25px;
+    max-width: 700px;
     h3:first-child {
       margin-top: 0;
     }
