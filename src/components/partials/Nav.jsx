@@ -23,10 +23,10 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
-  const generateNavLink = small => {
+  const generateNavLinks = isSmall => {
     return navMenu.map(({ text, url }, index) => (
       <NavLink
-        key={index} small={small} text={text} url={url} handleClick={onScrollLink}
+        key={index} small={isSmall} text={text} url={url} handleClick={onScrollLink}
       />
     ));
   };
@@ -39,12 +39,12 @@ const Nav = () => {
             <>
               <HamburgerIcon isOpen={isOpen} handleBurgerClick={() => setIsOpen(!isOpen)} />
               <nav id="toggleMenu" className={classNames({ open: isOpen })} >
-                {generateNavLink(true)}
+                {generateNavLinks(isSmall)}
               </nav>
             </>
           ) : (
               <nav id="menu">
-                {generateNavLink(false)}
+                {generateNavLinks(isSmall)}
               </nav>
             )}
         </>

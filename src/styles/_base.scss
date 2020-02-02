@@ -73,7 +73,7 @@ header {
     top: 50px;
     height: 0;
     overflow: hidden;
-    background-color: #56609a;
+    background-color: #555;
     transition: 0.3s;
       &.open {
         height: 110px;
@@ -89,7 +89,7 @@ header {
         font-size: 20px;
         line-height: 35px;
         border-radius: 0;
-        border-top: 1px solid white;
+        border-top: 1px solid #777;
       }
     }
     a {
@@ -136,6 +136,7 @@ main {
   text-align: center;
   border-radius: 5px;
   z-index: 1;
+  cursor: pointer;
 
   h1 {
     margin: 1rem 0;
@@ -257,7 +258,7 @@ section {
           min-height: 70px;
         }
 
-        nav {
+        ul {
           min-height: 60px;
           margin-top: 5px;
           padding: 0;
@@ -266,7 +267,7 @@ section {
           flex-wrap: wrap;
           justify-content: flex-start;
           align-content: flex-start;
-          a {
+          li {
             display: inline-block;
             border: 1px solid black;
             border-radius: 5px;
