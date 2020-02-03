@@ -43,7 +43,7 @@ const Projects = () => (
         githubUrl="https://github.com/isaokozakai/flight-search"
       >
         <p>
-          This is a mockup flight tickets search application,
+          This is a mockup flight ticket search application,
           which uses the Skyscanner API.
         </p>
       </Project>
