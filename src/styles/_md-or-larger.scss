@@ -1,3 +1,21 @@
+
+@media (min-width: 1020px) {
+  header {
+    .logo {
+      height: auto;
+      width: 10%;
+      transition: 0.5s;
+    }
+    &.sclolled {
+      .logo {
+        height: auto;
+        width: 8%;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 40px 90px;
@@ -14,17 +32,13 @@
       height: 50px;
       min-height: 50px;
       background-color: #555;
-      .logo {
-        height: auto;
-        width: 8%;
-      }
     }
     .container {
       padding: 0 90px;
     }
     .logo {
       height: auto;
-      width: 10%;
+      width: 13%;
       transition: 0.5s;
     }
 
