@@ -32,7 +32,7 @@ const Nav = () => {
   };
 
   return (
-    <Media query={{ maxWidth: "766px" }}>
+    <Media query={{ maxWidth: "767px" }}>
       {isSmall => (
         <>
           {isSmall ? (

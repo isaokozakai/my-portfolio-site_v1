@@ -14,9 +14,14 @@
       height: 50px;
       min-height: 50px;
       background-color: #555;
-      @media (min-width: 1020px) {
+      @media (min-width: 1200px) {
         .logo {
           width: 8%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .logo {
+          width: 11%;
         }
       }
     }
@@ -25,9 +30,9 @@
     }
     .logo {
       height: auto;
-      width: 13%;
+      width: 14%;
       transition: 0.5s;
-      @media (min-width: 1020px) {
+      @media (min-width: 1200px) {
         width: 10%;
       }
     }
@@ -39,12 +44,20 @@
       a {
         display: inline-block;
         padding: 0 1.5rem;
+        @media (max-width: 1023px) {
+          &:last-child {
+            padding: 0 0 0 1.5rem;
+          }
+        }
+        @media (min-width: 1200px) {
+          padding: 0 1.5rem;
+        }
       }
     }    
   }
 
   #about {
-    @media (min-width: 1020px) {
+    @media (min-width: 1024px) {
       &.container {
         padding: 40px 150px;
       }
@@ -58,7 +71,7 @@
         .skills-body {
           .skill {
             margin: 45px 50px;
-            @media (min-width: 1020px) {
+            @media (min-width: 1024px) {
               margin: 45px 65px;
             }
             width: 85px;
