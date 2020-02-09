@@ -163,7 +163,7 @@ section {
   display: inline-block;
   font-size: 35px;
   text-align: center;
-  margin: 20px 0 40px;
+  margin: 20px 0 55px;
   position: relative;
   z-index: 0;
   &::after {
@@ -188,7 +188,6 @@ section {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 30px;
     text-align: center;
   }
   .intro {
@@ -319,7 +318,7 @@ section {
 
   .email {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     a {
       position: relative;
       color: #222;
