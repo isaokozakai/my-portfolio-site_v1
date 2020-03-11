@@ -206,12 +206,13 @@ section {
     width: 100%;
     .skills-category {
       margin: 40px auto;
+      border: 1px solid #777;
+      border-radius: 10px;
       .skills-title {
         border-bottom: 2px solid #444;
         margin-bottom: 10px;
         h4 {
-          margin: 0;
-          padding-bottom: 5px;
+          margin: 5px auto;
           font-size: large;
           font-weight: normal;
           text-align: center;
