@@ -5,13 +5,13 @@ const Skills = ({ category }) => {
   let title;
   let skills;
   switch (category) {
-    case "frontEnd":
-      title = "Front-End";
-      skills = skillData.frontEnd;
+    case "frontend":
+      title = "Frontend";
+      skills = skillData.frontend;
       break;
-    case "backEnd":
-      title = "Back-End";
-      skills = skillData.backEnd;
+    case "backend":
+      title = "Backend";
+      skills = skillData.backend;
       break;
     case "other":
       title = "Other";
@@ -21,7 +21,9 @@ const Skills = ({ category }) => {
 
   return (
     <div className="skills-category">
-      <h4>{title}</h4>
+      <div className="skills-title">
+        <h4>{title}</h4>
+      </div>
       <div className="skills-body">
         {
           skills.map(({ logoUrl, name }) => (

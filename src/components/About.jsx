@@ -25,8 +25,8 @@ const About = () => {
         </div>
         <div className="skills">
           <h3>My Skills</h3>
-          <Skills category="frontEnd" />
-          <Skills category="backEnd" />
+          <Skills category="frontend" />
+          <Skills category="backend" />
           <Skills category="other" />
         </div>
       </div>

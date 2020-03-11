@@ -192,7 +192,7 @@ section {
   }
   .intro {
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     line-height: 25px;
     max-width: 750px;
     h3:first-child {
@@ -203,13 +203,19 @@ section {
     }
   }
   .skills {
+    width: 100%;
     .skills-category {
       margin: 40px auto;
-      h4 {
-        margin-bottom: 10px;
+      .skills-title {
         border-bottom: 2px solid #444;
-        font-size: x-large;
-        text-align: center;
+        margin-bottom: 10px;
+        h4 {
+          margin: 0;
+          padding-bottom: 5px;
+          font-size: large;
+          font-weight: normal;
+          text-align: center;
+        }
       }
     
       .skills-body {

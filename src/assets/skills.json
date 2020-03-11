@@ -1,5 +1,5 @@
 {
-  "frontEnd": [
+  "frontend": [
     {
       "name": "React",
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/react.svg"
@@ -9,35 +9,19 @@
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/redux.svg"
     },
     {
+      "name": "JavaScript",
+      "logoUrl": "https://cdn.worldvectorlogo.com/logos/javascript.svg"
+    },
+    {
       "name": "HTML5",
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/html-5.svg"
     },
     {
       "name": "CSS3",
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/css-5.svg"
-    },
-    {
-      "name": "JavaScript",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/javascript.svg"
-    },
-    {
-      "name": "jQuery",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/jquery-1.svg"
-    },
-    {
-      "name": "Sass",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/sass-1.svg"
-    },
-    {
-      "name": "Bootstrap",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"
-    },
-    {
-      "name": "Webpack",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/webpack-icon.svg"
     }
   ],
-  "backEnd": [
+  "backend": [
     {
       "name": "Node.js",
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg"
@@ -57,18 +41,6 @@
     {
       "name": "MongoDB",
       "logoUrl": "https://cdn.worldvectorlogo.com/logos/mongodb.svg"
-    },
-    {
-      "name": "Couchbase Server",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/couchbase-1.svg"
-    },
-    {
-      "name": "MySQL",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/mysql.svg"
-    },
-    {
-      "name": "Oracle Database",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg"
     }
   ],
   "other": [
