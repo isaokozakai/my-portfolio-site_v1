@@ -203,11 +203,9 @@ section {
     }
   }
   .skills {
+    margin-top: 20px;
     width: 100%;
     .skills-category {
-      &:nth-child(2) {
-        margin-top: 0;
-      }
       margin: 40px auto;
       border: 2px solid #cecece;
       border-radius: 10px;
