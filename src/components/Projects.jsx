@@ -27,7 +27,7 @@ const Projects = () => (
           "React", "HTML", "CSS", "Sass"
         ]}
         websiteUrl="https://lucid-benz-f12be9.netlify.com/"
-        githubUrl="https://github.com/Vlad-Vekslyer/tri-tech"
+        githubUrl="https://github.com/isaokozakai/tri-tech/tree/revamp"
       >
         <p>
           This is a mockup company website using React
