@@ -25,9 +25,7 @@ const About = () => {
         </div>
         <div className="skills">
           <h3>My Skills</h3>
-          <Skills category="frontend" />
-          <Skills category="backend" />
-          <Skills category="other" />
+          <Skills />
         </div>
       </div>
     </section>

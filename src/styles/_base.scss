@@ -208,11 +208,11 @@ section {
   .skills {
     margin-top: 20px;
     width: 100%;
-    .skills-category {
+    .skill-category {
       margin: 40px auto;
       border: 2px solid #cecece;
       border-radius: 10px;
-      .skills-title {
+      .skill-category-title {
         border-bottom: 2px solid #cecece;
         margin-bottom: 10px;
         h4 {
@@ -223,7 +223,7 @@ section {
         }
       }
     
-      .skills-body {
+      .skill-category-body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
