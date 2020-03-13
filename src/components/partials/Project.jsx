@@ -2,7 +2,9 @@ import React from 'react';
 
 const Project = ({ imageSrc, imageAlt, children, technologies, websiteUrl, githubUrl }) => (
   <div className="col">
-    <img src={imageSrc} alt={imageAlt} />
+    <div className="img-frame">
+      <img src={imageSrc} alt={imageAlt} />
+    </div>
     <div className="description">
       {children}
       <ul>
