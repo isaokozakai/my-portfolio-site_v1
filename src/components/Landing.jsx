@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Landing = () => {
-  const [landingTitle, setLandingTitle] = useState("landing-title rubberBand delay")
+  const [landingTitle, setLandingTitle] = useState("landing-title rubberBand delay");
   const handleClick = () => {
     setLandingTitle("landing-title");
     setTimeout(() => {

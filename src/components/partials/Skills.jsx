@@ -3,8 +3,8 @@ import skillData from '../../assets/skills.json';
 
 const Skills = () => {
   return (
-    ["Frontend", "Backend", "Other"].map(category => (
-      <div className="skill-category">
+    ["Frontend", "Backend", "Other"].map((category, index) => (
+      <div key={index} className="skill-category">
         <div className="skill-category-title">
           <h4>{category}</h4>
         </div>

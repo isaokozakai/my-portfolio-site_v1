@@ -7,8 +7,9 @@ const Projects = () => (
     <h2 className="headline">PROJECTS</h2>
     <div className="grid-container">
       {
-        projectData.map(({ imageSrc, imageAlt, technologies, websiteUrl, githubUrl, description }) => (
+        projectData.map(({ imageSrc, imageAlt, technologies, websiteUrl, githubUrl, description }, index) => (
           <Project
+            key={index}
             imageSrc={imageSrc}
             imageAlt={imageAlt}
             technologies={technologies}
