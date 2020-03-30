@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 const Landing = () => {
-  const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(false);
   const [landingTitle, setLandingTitle] = useState("landing-title rubberBand delay");
   const backgroundImage = "images/background.png";
+
   useEffect(() => {
     const img = new Image();
     img.onload = () => {
