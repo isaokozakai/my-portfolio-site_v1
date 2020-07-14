@@ -12,7 +12,7 @@ const Skills = () => {
           {
             skillData[category.toLowerCase()].map(({ logoUrl, name }) => (
               <div key={name} className="skill">
-                <img src={logoUrl} />
+                <img src={logoUrl} alt={name} />
                 <p>{name}</p>
               </div>
             ))
