@@ -8,6 +8,6 @@ const Logo = () => (
       </g>
     </svg>
   </a>
-)
+);
 
 export default Logo;
