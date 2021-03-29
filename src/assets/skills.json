@@ -2,23 +2,23 @@
   "frontend": [
     {
       "name": "React",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/react.svg"
+      "logoUrl": "images/react.svg"
     },
     {
       "name": "Redux",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/redux.svg"
+      "logoUrl": "images/redux.svg"
     },
     {
       "name": "JavaScript",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/javascript.svg"
+      "logoUrl": "images/javascript.svg"
     },
     {
       "name": "HTML5",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/html-5.svg"
+      "logoUrl": "images/html5.svg"
     },
     {
       "name": "CSS3",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/css-5.svg"
+      "logoUrl": "images/css5.svg"
     }
   ],
   "backend": [
