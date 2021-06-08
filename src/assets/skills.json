@@ -24,41 +24,41 @@
   "backend": [
     {
       "name": "Node.js",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg"
+      "logoUrl": "images/nodejs.svg"
     },
     {
       "name": "Express",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/express-109.svg"
+      "logoUrl": "images/express.svg"
     },
     {
       "name": "Go",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/go-6.svg"
+      "logoUrl": "images/go.svg"
     },
     {
       "name": "Java",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/java-4.svg"
+      "logoUrl": "images/java.svg"
     },
     {
       "name": "MongoDB",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/mongodb.svg"
+      "logoUrl": "images/mongodb.svg"
     }
   ],
   "other": [
     {
       "name": "Git",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+      "logoUrl": "images/git.svg"
     },
     {
       "name": "Firebase",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/firebase-1.svg"
+      "logoUrl": "images/firebase.svg"
     },
     {
       "name": "Netlify",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/netlify.svg"
+      "logoUrl": "images/netlify.svg"
     },
     {
       "name": "Heroku",
-      "logoUrl": "https://cdn.worldvectorlogo.com/logos/heroku.svg"
+      "logoUrl": "images/heroku.svg"
     }
   ]
 }
