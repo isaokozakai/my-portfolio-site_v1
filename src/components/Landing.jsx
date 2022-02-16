@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const Landing = () => {
   const [loaded, setLoaded] = useState(false);
-  const [landingTitle, setLandingTitle] = useState("landing-title rubberBand delay");
-  const backgroundImage = "images/background.png";
+  const [landingTitle, setLandingTitle] = useState('landing-title rubberBand delay');
+  const backgroundImage = 'images/background.png';
 
   useEffect(() => {
     const img = new Image();
@@ -14,14 +14,18 @@ const Landing = () => {
   }, []);
 
   const handleClick = () => {
-    setLandingTitle("landing-title");
+    setLandingTitle('landing-title');
     setTimeout(() => {
-      setLandingTitle("landing-title rubberBand");
+      setLandingTitle('landing-title rubberBand');
     });
   };
 
   return (
-    <section id="landing" className="container" style={{ background: `url(${backgroundImage}) center`, backgroundSize: "cover" }}>
+    <section
+      id="landing"
+      className="container"
+      style={{ background: `url(${backgroundImage}) center`, backgroundSize: 'cover' }}
+    >
       {loaded ? (
         <div className={landingTitle} onClick={handleClick}>
           <h1>Isao Kozakai</h1>
