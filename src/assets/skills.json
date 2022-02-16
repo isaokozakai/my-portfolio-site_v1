@@ -35,12 +35,12 @@
       "logoUrl": "images/go.svg"
     },
     {
-      "name": "Java",
-      "logoUrl": "images/java.svg"
-    },
-    {
       "name": "MongoDB",
       "logoUrl": "images/mongodb.svg"
+    },
+    {
+      "name": "GraphQL",
+      "logoUrl": "images/graphql.svg"
     }
   ],
   "other": [
