@@ -5,12 +5,8 @@
       "logoUrl": "images/react.svg"
     },
     {
-      "name": "Redux",
-      "logoUrl": "images/redux.svg"
-    },
-    {
-      "name": "JavaScript",
-      "logoUrl": "images/javascript.svg"
+      "name": "TypeScript",
+      "logoUrl": "images/typescript.svg"
     },
     {
       "name": "HTML5",
@@ -19,12 +15,28 @@
     {
       "name": "CSS3",
       "logoUrl": "images/css5.svg"
+    },
+    {
+      "name": "Redux",
+      "logoUrl": "images/redux.svg"
+    },
+    {
+      "name": "Material UI",
+      "logoUrl": "images/material-ui.svg"
+    },
+    {
+      "name": "Tailwindcss",
+      "logoUrl": "images/tailwindcss.svg"
     }
   ],
   "backend": [
     {
       "name": "Node.js",
       "logoUrl": "images/nodejs.svg"
+    },
+    {
+      "name": "TypeScript",
+      "logoUrl": "images/typescript.svg"
     },
     {
       "name": "Express",
