@@ -29,8 +29,8 @@ const Landing = () => {
       {loaded ? (
         <div className={landingTitle} onClick={handleClick}>
           <h1>Isao Kozakai</h1>
-          <h2>Full-Stack Web Developer</h2>
-          <h2>Vancouver, BC</h2>
+          <h2>Full-Stack Software Developer</h2>
+          <h2>Montreal, QC</h2>
         </div>
       ) : null}
     </section>
