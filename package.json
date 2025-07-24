@@ -2,7 +2,7 @@
   "name": "my-portfolio-site_v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.isaokozakai.me",
+  "homepage": "https://isaokozakai.me",
   "dependencies": {
     "animate.css": "^3.7.2",
     "classnames": "^2.2.6",
