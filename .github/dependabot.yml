@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "yarn"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "chore"
+    labels:
+      - "dependencies"
+    automerge: true
