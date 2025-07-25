@@ -6,7 +6,7 @@ This is a website for my portfolio.
 
 ## Purpose
 
-I wanted to show who I am and what I can do.
+This site is a reflection of who I am and what I can build as a developer.
 
 ## Technologies
 
