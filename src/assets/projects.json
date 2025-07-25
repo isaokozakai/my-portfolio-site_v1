@@ -1,45 +1,24 @@
 [
   {
-    "imageSrc": "images/sharedlist.png",
+    "imageSrc": "/images/sharedlist.png",
     "imageAlt": "sharedlist",
-    "technologies": [
-      "React",
-      "Redux",
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JWT"
-    ],
+    "technologies": ["React", "Redux", "HTML", "CSS", "Bootstrap", "Node.js", "Express", "MongoDB", "JWT"],
     "websiteUrl": "https://isao-sharedlist.herokuapp.com/",
     "githubUrl": "https://github.com/isaokozakai/mern-bbs",
     "description": "This is a mockup bulletin board application, which you can register an account, login/logout, and read/create/edit/delete articles."
   },
   {
-    "imageSrc": "images/tri-tech-co.png",
+    "imageSrc": "/images/tri-tech-co.png",
     "imageAlt": "tri-tech-co",
-    "technologies": [
-      "React",
-      "HTML",
-      "CSS",
-      "Sass"
-    ],
+    "technologies": ["React", "HTML", "CSS", "Sass"],
     "websiteUrl": "https://lucid-benz-f12be9.netlify.com/",
     "githubUrl": "https://github.com/isaokozakai/tri-tech/tree/revamp",
     "description": "This is a mockup company website using React"
   },
   {
-    "imageSrc": "images/flight-search.png",
+    "imageSrc": "/images/flight-search.png",
     "imageAlt": "flight-search",
-    "technologies": [
-      "jQuery",
-      "Ajax",
-      "Web API",
-      "HTML",
-      "CSS"
-    ],
+    "technologies": ["jQuery", "Ajax", "Web API", "HTML", "CSS"],
     "websiteUrl": "https://isaokozakai.github.io/flight-search/",
     "githubUrl": "https://github.com/isaokozakai/flight-search",
     "description": "This is a mockup flight ticket search application, which uses the Skyscanner API."

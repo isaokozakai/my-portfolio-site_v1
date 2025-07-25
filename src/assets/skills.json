@@ -2,75 +2,75 @@
   "frontend": [
     {
       "name": "React",
-      "logoUrl": "images/react.svg"
+      "logoUrl": "/images/react.svg"
     },
     {
       "name": "TypeScript",
-      "logoUrl": "images/typescript.svg"
+      "logoUrl": "/images/typescript.svg"
     },
     {
       "name": "HTML5",
-      "logoUrl": "images/html5.svg"
+      "logoUrl": "/images/html5.svg"
     },
     {
       "name": "CSS3",
-      "logoUrl": "images/css5.svg"
+      "logoUrl": "/images/css5.svg"
     },
     {
       "name": "Redux",
-      "logoUrl": "images/redux.svg"
+      "logoUrl": "/images/redux.svg"
     },
     {
       "name": "Material UI",
-      "logoUrl": "images/material-ui.svg"
+      "logoUrl": "/images/material-ui.svg"
     },
     {
       "name": "Tailwindcss",
-      "logoUrl": "images/tailwindcss.svg"
+      "logoUrl": "/images/tailwindcss.svg"
     }
   ],
   "backend": [
     {
       "name": "Node.js",
-      "logoUrl": "images/nodejs.svg"
+      "logoUrl": "/images/nodejs.svg"
     },
     {
       "name": "TypeScript",
-      "logoUrl": "images/typescript.svg"
+      "logoUrl": "/images/typescript.svg"
     },
     {
       "name": "Express",
-      "logoUrl": "images/express.svg"
+      "logoUrl": "/images/express.svg"
     },
     {
       "name": "Go",
-      "logoUrl": "images/go.svg"
+      "logoUrl": "/images/go.svg"
     },
     {
       "name": "MongoDB",
-      "logoUrl": "images/mongodb.svg"
+      "logoUrl": "/images/mongodb.svg"
     },
     {
       "name": "GraphQL",
-      "logoUrl": "images/graphql.svg"
+      "logoUrl": "/images/graphql.svg"
     }
   ],
   "other": [
     {
       "name": "Git",
-      "logoUrl": "images/git.svg"
+      "logoUrl": "/images/git.svg"
     },
     {
       "name": "Firebase",
-      "logoUrl": "images/firebase.svg"
+      "logoUrl": "/images/firebase.svg"
     },
     {
       "name": "Netlify",
-      "logoUrl": "images/netlify.svg"
+      "logoUrl": "/images/netlify.svg"
     },
     {
       "name": "Heroku",
-      "logoUrl": "images/heroku.svg"
+      "logoUrl": "/images/heroku.svg"
     }
   ]
 }
