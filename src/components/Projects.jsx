@@ -1,4 +1,3 @@
-import React from 'react';
 import Project from './partials/Project';
 import projectData from '../assets/projects.json';
 
