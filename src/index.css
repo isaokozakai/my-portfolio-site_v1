@@ -1,0 +1,127 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Maven Pro', sans-serif;
+  --animate-rubber-band: rubber-band 1s both;
+
+  @keyframes rubber-band {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+#burger-icon {
+  position: relative;
+  cursor: pointer;
+  width: 25px;
+  padding: 10px 0;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+}
+
+#burger-icon span {
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  height: 3px;
+  width: 50%;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+#burger-icon span:nth-child(even) {
+  left: 50%;
+}
+
+#burger-icon span:nth-child(odd) {
+  left: 0;
+}
+
+#burger-icon span:nth-child(1),
+#burger-icon span:nth-child(2) {
+  top: 0;
+}
+
+#burger-icon span:nth-child(3),
+#burger-icon span:nth-child(4) {
+  top: 8px;
+}
+
+#burger-icon span:nth-child(5),
+#burger-icon span:nth-child(6) {
+  top: 16px;
+}
+
+#burger-icon.burger-open span:nth-child(1),
+#burger-icon.burger-open span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+#burger-icon.burger-open span:nth-child(2),
+#burger-icon.burger-open span:nth-child(5) {
+  transform: rotate(-45deg);
+}
+
+#burger-icon.burger-open span:nth-child(1) {
+  left: 2px;
+  top: 4px;
+}
+
+#burger-icon.burger-open span:nth-child(2) {
+  left: calc(50% - 2px);
+  top: 4px;
+}
+
+#burger-icon.burger-open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+  width: 0;
+}
+
+#burger-icon.burger-open span:nth-child(4) {
+  left: 150%;
+  opacity: 0;
+  width: 0;
+}
+
+#burger-icon.burger-open span:nth-child(5) {
+  left: 2px;
+  top: 12px;
+}
+
+#burger-icon.burger-open span:nth-child(6) {
+  left: calc(50% - 2px);
+  top: 12px;
+}

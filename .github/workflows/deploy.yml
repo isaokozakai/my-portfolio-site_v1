@@ -18,8 +18,13 @@ jobs:
         with:
           node-version: 22.17
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Install dependencies
         run: yarn install
+        env:
+          COREPACK_ENABLE_DOWNLOAD_PROMPT: "0"
 
       - name: Build
         run: yarn build

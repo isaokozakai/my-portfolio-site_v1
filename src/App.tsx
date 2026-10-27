@@ -1,4 +1,3 @@
-import './styles/App.scss';
 import Header from './components/Header';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -10,7 +9,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="w-full">
         <Landing />
         <About />
         <Projects />

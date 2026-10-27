@@ -1,12 +1,46 @@
 {
+  "languages": [
+    {
+      "name": "TypeScript",
+      "logoUrl": "/images/typescript.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logoUrl": "/images/javascript.svg"
+    },
+    {
+      "name": "Go",
+      "logoUrl": "/images/go.svg"
+    },
+    {
+      "name": "Python",
+      "logoUrl": "/images/python.svg"
+    },
+    {
+      "name": "Java",
+      "logoUrl": "/images/java.svg"
+    }
+  ],
   "frontend": [
     {
       "name": "React",
       "logoUrl": "/images/react.svg"
     },
     {
-      "name": "TypeScript",
-      "logoUrl": "/images/typescript.svg"
+      "name": "Redux",
+      "logoUrl": "/images/redux.svg"
+    },
+    {
+      "name": "React Native",
+      "logoUrl": "/images/react-native.svg"
+    },
+    {
+      "name": "Flutter",
+      "logoUrl": "/images/flutter.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "logoUrl": "/images/tailwindcss.svg"
     },
     {
       "name": "HTML5",
@@ -15,18 +49,6 @@
     {
       "name": "CSS3",
       "logoUrl": "/images/css5.svg"
-    },
-    {
-      "name": "Redux",
-      "logoUrl": "/images/redux.svg"
-    },
-    {
-      "name": "Material UI",
-      "logoUrl": "/images/material-ui.svg"
-    },
-    {
-      "name": "Tailwindcss",
-      "logoUrl": "/images/tailwindcss.svg"
     }
   ],
   "backend": [
@@ -35,30 +57,36 @@
       "logoUrl": "/images/nodejs.svg"
     },
     {
-      "name": "TypeScript",
-      "logoUrl": "/images/typescript.svg"
-    },
-    {
       "name": "Express",
       "logoUrl": "/images/express.svg"
-    },
-    {
-      "name": "Go",
-      "logoUrl": "/images/go.svg"
-    },
-    {
-      "name": "MongoDB",
-      "logoUrl": "/images/mongodb.svg"
     },
     {
       "name": "GraphQL",
       "logoUrl": "/images/graphql.svg"
     }
   ],
+  "databases": [
+    {
+      "name": "PostgreSQL",
+      "logoUrl": "/images/postgresql.svg"
+    },
+    {
+      "name": "MongoDB",
+      "logoUrl": "/images/mongodb.svg"
+    },
+    {
+      "name": "Couchbase",
+      "logoUrl": "/images/couchbase.svg"
+    }
+  ],
   "other": [
     {
       "name": "Git",
       "logoUrl": "/images/git.svg"
+    },
+    {
+      "name": "Docker",
+      "logoUrl": "/images/docker.svg"
     },
     {
       "name": "Firebase",
